@@ -4,6 +4,7 @@
 <head>
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -16,14 +17,17 @@
         <div class="list">
             <ul type="square">
                 <li>List Of Programs</li>
-                <li>Factorial</li>
-                <li>Plaindrome</li>
-                <li>Matrix Multiplication</li>
-                <li>Strassen's Matrix Multiplication</li>
+                <li onmouseover="fact()" onmouseleave="clr()">Factorial</li>
+                <li onmouseover="plaindrome()" onmouseleave="clr()">Plaindrome</li>
+                <li onmouseover="multi()" onmouseleave="clr()">Matrix Multiplication</li>
+                <li onmouseover="strassen()" onmouseleave="clr()">Strassen's Matrix Multiplication</li>
             </ul>
             <div>
-                <button class="button" role="button">BEGIN</button>
+               <a href="algorithm.html"> <button class="button" role="button">BEGIN</button> </a>
             </div>
+        </div>
+        <div id="box">
+            <pre id="info"></pre>
         </div>
     </main>
     <footer>

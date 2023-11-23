@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(0, 255, 98);
+    background-color: rgb(238, 255, 0);
     text-emphasis-color: black;
     list-style-type: none;
     font-size: larger;
@@ -16,6 +16,12 @@ body{
     color: whitesmoke;
 }
 
+#home{
+  position: fixed;
+  left: 25px;
+  background: #fff;
+}
+
 h1{
     margin-block-start:0px;
     padding-top: 25px;
@@ -27,7 +33,7 @@ main{
 
 .list {
     width: 600px;
-    height: 500px;
+    height: 350px;
     margin: auto;
     letter-spacing: 1.5mm;
     line-height: 1cm;
@@ -88,6 +94,24 @@ li:first-child{
 .button:not([disabled]):active {
   box-shadow: #000 2px 2px 0 0, #000 2px 2px 0 1px;
   transform: translate(2px, 2px);
+}
+
+#box{
+  display: none;
+  border: #000 dashed 2px;
+  height: 250px;
+  width: 750px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(46, 195, 206, 0.945);
+  overflow:hidden;
+}
+
+#info{
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  font-weight: bolder;
 }
 
 footer{
