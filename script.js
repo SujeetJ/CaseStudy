@@ -47,6 +47,29 @@ document.addEventListener('DOMContentLoaded', function () {
     const btn = document.getElementById("button");
     btn.addEventListener("click", function () {
         const frm = document.getElementById("program");
-        frm.style.display = "block";
+        const frame = document.getElementById("display");
+        const slt = document.getElementById("opt");
+        const value = slt.value;
+        if (value=="factorial") {
+            console.log(value);
+            frame.setAttribute("src","Fibonacci/fibonacci.html");
+            frm.style.display = "block";
+        }
+        else if (value=="palindrome"){
+            
+        }
+        else if (value=="matrix"){
+
+        }
+        else if (value=="strassen"){
+            console.log(value);
+            frame.setAttribute("src","Strassens/strassen.html");
+            frm.style.display = "block";
+        }
+        else{
+            alert("Please Select an Algorithm");
+            frm.style.display = "none";
+        }
+        // frm.style.display = "block";
     });
 });
