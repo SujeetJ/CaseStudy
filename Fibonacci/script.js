@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
     animationBox.className = 'animation-box';
     // animationBox.innerHTML = `<span>${iteration}</span><span>${value}</span>`;
     // animationBox.innerHTML = `<span style="color:white; position:relative; top:-15px; ">${iteration}</span><span style= "font-weight:bold; font-size:30px">${value}</span>`;
-    animationBox.innerHTML = `<div style="color:white; position:relative; top:-15px; ">${iteration}</div><div style= "font-weight:bold; font-size:30px">${value}</div>`;
+    animationBox.innerHTML = `<div style="color:white; position:relative; top:-17px; ">${iteration}</div><div style= "font-weight:bold; font-size:30px">${value}</div>`;
     animationContainer.appendChild(animationBox);
     return animationBox;
   }

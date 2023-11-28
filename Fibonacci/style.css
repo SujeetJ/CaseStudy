@@ -25,13 +25,13 @@ input[type=number]:focus{
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: white;
   }
   
   #container {
@@ -58,22 +58,28 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #4caf50;
+    background-color: #1cda22;
     color: #fff;
     border: none;
     border-radius: 5px;
     outline: none;
-    margin-bottom: 20px;
+    margin: 20px;
+  }
+
+  #calculate-btn:hover{
+    background-color: rgba(24, 168, 29, 0.78);
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   }
   
   #animation-container {
-    /* display: flex; */
+    
     height: 120px;
     width: 1000px;
-    /* align-items: center; */
+    align-items: center;
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
+    justify-content: center;
   }
   
   /* .animation-box {
@@ -90,7 +96,7 @@ body {
   .animation-box {
     display: inline-block;
     text-align: center;
-    /* align-items: center; */
+    align-items: center;
     width: 80px;
     height: 80px;
     margin: 10px;

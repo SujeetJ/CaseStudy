@@ -59,7 +59,9 @@ document.addEventListener('DOMContentLoaded', function () {
             
         }
         else if (value=="matrix"){
-
+            console.log(value);
+            frame.setAttribute("src","Matrix/matrix.html");
+            frm.style.display = "block";
         }
         else if (value=="strassen"){
             console.log(value);
